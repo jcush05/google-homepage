@@ -1,0 +1,54 @@
+h1 {
+    text-align: left;
+}
+
+form {
+    
+    text-align: center;
+}
+
+input[type=search] {
+    width: 50%;
+}
+
+input[type=submit] {
+    margin: 8px 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+    float: left; 
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 12px;
+    color: black;
+    font-size: 12px;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+.navleft {
+    position: fixed;
+    top: 10;
+    left: 0;
+}
+
+.navright {
+    position: fixed;
+    top: 10;
+    right: 0;
+}
+
+
